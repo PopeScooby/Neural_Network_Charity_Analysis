@@ -23,4 +23,4 @@
 
 ## Summary
 
-### Looking at the results of the analysis
+### Looking at the results of the analysis I believe bigger tweaks to the model would be necessary to achieve any signifigant improvement on the accuracy or loss metrics. After applying one hot encoding the dataset contains over 40 columns. Considering the column count two other approaches I might take to this data is applying Random Forest to the dataset because Random Forest can both handle a large quantity of input variables and rank the input variables which might help in elimiating some features and making the data easier to work with.  Another apporach might be allpying PCA. PCA's feature extraction would also make the data easier to work with by eliniating/condensing input variables.
